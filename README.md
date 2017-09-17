@@ -4,7 +4,7 @@
 -
 Наставник  [Анастасия Игошева](https://vk.com/igosh)
 -
-[homework#1](./homework#1)
+[homework#1](https://github.com/dragin96/loftschool/edit/master/homework%231)
 -
-[homework#2](./homework#2)
+[homework#2](https://github.com/dragin96/loftschool/edit/master/homework#2)
 -
