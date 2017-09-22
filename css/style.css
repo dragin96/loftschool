@@ -24,9 +24,9 @@ ul,li{
 }
 .header__container{
 	width: 1100px;
-  padding: 20px 20px;
-  margin: 0 auto;
-  box-sizing: border-box;
+	padding: 20px 20px;
+	margin: 0 auto;
+	box-sizing: border-box;
 }
 .wrappper__center{
 	width: 1100px;
@@ -40,8 +40,8 @@ ul,li{
 }
 .header__container{
 	width: 1100px;
-  padding: 20px 20px;
-  box-sizing: border-box;
+	padding: 20px 20px;
+	box-sizing: border-box;
 }
 .logo {
 	width: 121px;
@@ -49,7 +49,7 @@ ul,li{
 	display: inline-block;
 }
 .logo__href {
-  display: block;
+	display: block;
 }
 .contacts {
 	width: 175px;
@@ -243,14 +243,13 @@ ul,li{
 }
 .footer {
 	width: 100%;
-	height: 76px;
 	display: inline-block;
 	background-color: #1c5bc3;
 	box-sizing: border-box;
 }
 .footer__wrap {
 	width: 100%;
-	height: 76px;
+	height: 77px;
 	display: inline-block;
 	padding: 12px 0 0 19px;
 	box-sizing: border-box;
@@ -279,14 +278,14 @@ ul,li{
 	vertical-align: super;
 }
 .footer__logo-href {
-    display: block;
+	width: 123px;
+	display: block;
+	margin: auto;
 }
 .social {
 	width: 156px;
-	height: 80px;
 	text-align: center;
 	display: inline-block;
-	vertical-align: middle;
 	margin-left: 83px;
 }
 
