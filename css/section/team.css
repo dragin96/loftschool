@@ -1,0 +1,73 @@
+.main-team {
+	width: 885px;
+	float: right;
+}
+
+
+.title {
+	color: #221f1f;
+	font-family: Roboto;
+	font-size: 49px;
+	font-weight: 700;
+	margin-bottom: 38px;
+}
+.crew {
+	width: 900px;
+	margin: auto;
+}
+.crew__items {
+	/* text-align: center; */
+	width: 912px;
+}
+
+.crew__item {
+	width: 288px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	margin-right: 7px;
+	margin-bottom: 42px;
+}
+.crew__ava {
+	width: 160px;
+	height: 160px;
+	display: inline-block;
+	border-radius: 50%;
+	overflow: hidden;
+	text-align: center;
+	margin-bottom: 13px;
+}
+
+.crew__name {
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.crew__profession {
+	color: #1c5bc3;
+	font-weight: 700;
+	text-align: center;
+	font-size: 14px;
+	margin-bottom: 8px;
+}
+
+.crew__description {
+	font-weight: 300;
+	display: inline-block;
+}
+
+.crew__ava-img {
+	width: 160px;
+}
+
+.crew__content {
+	width: 260px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 21px;
+}
+.crew__content_3{
+	width: 256px;
+}

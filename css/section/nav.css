@@ -1,0 +1,86 @@
+.nav{
+	width: 142px;
+	float: left;
+}
+.nav-main__item{
+	line-height: 18px;
+	margin-bottom: 30px;
+}
+.nav-main__item:last-child{
+	margin-bottom: 0px;
+}
+.nav-main__href {
+	text-decoration: none;
+	color: #1c5bc3;
+	font-family: Roboto;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2.4px;
+}
+.nav-main__item:hover .nav-main__href,
+.nav-main__item_active .nav-main__href{
+	color: #221f1f;
+}
+.nav-main__item:before,
+.nav-main__item_active:before
+{
+	content: "";
+	display: block;
+	width: 20px;
+	height: 18px;
+	float: left;
+	margin-right: 16px;
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+.nav-main__item_aircraft:hover:before,.nav-main__item_active:before{
+	background-image: url(../../img/icon/aircraft-hover.png);
+}
+.nav-main__item_aircraft:before{
+	background-image: url(../../img/icon/aircraft.png) ;
+}
+.nav-main__item_star:before{
+	background-image: url(../../img/icon/star.png) ;
+}
+.nav-main__item_star:hover:before,.nav-main__item_active:before{
+	background-image: url(../../img/icon/star-hover.png) ;
+}
+.nav-main__item_cap:before{
+	width: 22px;
+	background-image: url(../../img/icon/cap.png);
+}
+.nav-main__item_cap:hover:before,.nav-main__item_active:before{
+	background-image: url(../../img/icon/cap-hover.png);
+}
+
+.bread-crumbs{
+	margin-bottom: 18px;
+}
+.bread-crumbs__items {
+	font-size: 14px;
+	font-style: italic;
+	font-weight: 300;
+	line-height: 1;
+	opacity: 0.8;
+	text-indent: 2.4px;
+}
+.bread-crumbs__item,
+.bread-crumbs__item_active {
+	display: inline-block;
+}
+.bread-crumbs__item:not(:last-child):after{
+	content: " / ";
+}
+.bread-crumbs__href {
+	color: #5b96d9;
+}
+.bread-crumbs__href:hover {
+    color: #224873;
+}
+.bread-crumbs__item_active .bread-crumbs__href {
+	text-decoration: none;
+	color: #221f1f;
+	cursor: default;
+}

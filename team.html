@@ -3,45 +3,55 @@
 <head>
 	<meta charset="UTF-8">
 	<title>AIR planet team</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=1105">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/section/team.css">
 </head>
 <body>
 	<div class="wrapper">
+		<!--begin header -->
 		<header class="header">
-			<div class="header__container">
+			<div class="container clearfix">
 				<div class="logo">
 					<a class="logo__href" href=".">
 						<img class="logo__img" src="img/logo.png" alt="">
 					</a>
 				</div>
-				<div class="contacts">
+				<address class="contacts">
 					<a href="tel:88007008000" class="contacts__phone">8 (800) 00-392-10</a>
 					<a href="#" class="contacts__timetable">График работы</a>
-				</div>
+				</address>
 			</div>
 		</header>
-		<div class="content">
-			<div class="container">
-				<nav class="nav-left">
-					<ul class="nav-left__items">
-						<li class="nav-left__item nav-left__item_aircraft">
-							<a href="#" class="nav-left__href">Главная</a>
-						</li>
-						<li class="nav-left__item nav-left__item_active nav-left__item_cap">
-							<a href="#" class="nav-left__href">Экипаж</a>
-						</li>
-						<li class="nav-left__item nav-left__item_star">
-							<a href="#" class="nav-left__href">Отзывы</a>
-						</li>
-					</ul>
-				</nav>
-				<main class="main">
+		<!--end header -->
+		<section class="main">
+			<div class="main__container container clearfix">
+				<!--begin nav -->
+				<aside class="nav">
+					<nav class="nav-main">
+						<ul class="nav-main__items">
+							<li class="nav-main__item nav-main__item_aircraft">
+								<a href="#" class="nav-main__href">Главная</a>
+							</li>
+							<li class="nav-main__item nav-main__item_active nav-main__item_cap">
+								<a href="#" class="nav-main__href">Экипаж</a>
+							</li>
+							<li class="nav-main__item nav-main__item_star">
+								<a href="#" class="nav-main__href">Отзывы</a>
+							</li>
+						</ul>
+					</nav>
+				</aside>
+				<!--end nav -->
+				<!--begin content -->
+				<main class="main-team">
 					<nav class="bread-crumbs">
 						<ul class="bread-crumbs__items">
 							<li class="bread-crumbs__item">
 								<a href="#" class="bread-crumbs__href">Главная</a>
 							</li>
-							<li class="bread-crumbs__item_active">
+							<li class="bread-crumbs__item bread-crumbs__item_active">
 								<a href="#" class="bread-crumbs__href">Экипаж</a>
 							</li>
 						</ul>
@@ -122,49 +132,51 @@
 						</div>
 					</section>
 				</main>
+				<!-- end content -->
 			</div>
-		</div>
-		<footer class="footer">
-			<div class="container">
-				<div class="footer__wrap">
-					<div class="footer__desc">
-						<span class="footer__text">Сделано с любовью и старанием<br> на курсе «HTML + CSS» в <a href="#" class="footer__autor">LoftSchool.</a></span>
-						<br>
-						Автор работы: <a href="." class="footer__auther">Прохладов Вадим</a>
-					</div>
-					<div class="footer__logo">
-						<a class="footer__logo-href" href="/">
-							<img src="img/logo.png" alt="">
-						</a>
-					</div>
-					<div class="social">
-						<div class="social__title">Наши социальные сети</div>
-						<ul class="social__item">
-							<li class="social__item-vk">
-								<a href="." class="social__href">
-								</a>
-							</li>
-							<li class="social__item-fb">
-								<a href="." class="social__href">
-								</a>
-							</li>
-							<li class="social__item-gp">
-								<a href="." class="social__href">
-								</a>
-							</li>
-							<li class="social__item-tw">
-								<a href="." class="social__href">
-								</a>
-							</li>
-							<li class="social__item-mail">
-								<a href="." class="social__href">
-								</a>
-							</li>
-						</ul>
+		</section>
+	</div>
+	<!--begin footer -->
+			<footer class="footer">
+				<div class="container">
+					<div class="footer__wrap">
+						<div class="footer__desc">
+							<span class="footer__text">Сделано с любовью и старанием<br> на курсе «HTML + CSS» в <a href="https://loftschool.com/" class="footer__autor">LoftSchool.</a></span>
+							Автор работы: <a href="https://vk.com/dragin_bld" class="footer__autor">Иванов Алексей</a>
+						</div>
+						<div class="footer__logo">
+							<a class="footer__logo-href" href="/">
+								<img src="img/logo.png" alt="">
+							</a>
+						</div>
+						<div class="social">
+							<div class="social__title">Наши социальные сети</div>
+							<ul class="social__item">
+								<li class="social__item-vk">
+									<a href="." class="social__href">
+									</a>
+								</li>
+								<li class="social__item-fb">
+									<a href="." class="social__href">
+									</a>
+								</li>
+								<li class="social__item-gp">
+									<a href="." class="social__href">
+									</a>
+								</li>
+								<li class="social__item-tw">
+									<a href="." class="social__href">
+									</a>
+								</li>
+								<li class="social__item-mail">
+									<a href="." class="social__href">
+									</a>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
-			</div>
-		</footer>
-	</div>
+			</footer>
+			<!--end footer-->
 </body>
 </html>   

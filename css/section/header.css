@@ -1,0 +1,51 @@
+.header {
+	width: 100%;
+	background-color: #1c5bc3;
+	box-sizing: border-box;
+	margin-bottom: 45px;
+}
+
+.logo {
+	width: 121px;
+	height: 36px;
+	padding: 20px 0;
+	display: inline-block;
+	float: left;
+}
+.logo__href {
+	display: inline-block;
+	vertical-align: middle;
+}
+.contacts {
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: .5px;
+	padding-top: 20px;
+	float: right;
+}
+.contacts__phone {
+	font-family: Roboto;
+	font-size: 21px;
+	text-decoration: none;
+	color: white;
+}
+.contacts__phone:active{
+	text-decoration: underline;
+}
+.contacts__timetable {
+	width: 175px;
+	display: inline-block;
+	opacity: 0.7;
+	color: #ffffff;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 22px;
+	letter-spacing: 0px;
+	text-decoration: underline;
+	display: block;
+	text-align: right;
+}    
+.contacts__timetable:hover{
+	opacity: 1;
+}
