@@ -35,7 +35,7 @@
 	background-position: center;
 	background-size: contain;
 }
-.nav-main__item_aircraft:hover:before,.nav-main__item_active:before{
+.nav-main__item_aircraft:hover:before,.nav-main__item_aircraft.nav-main__item_active:before{
 	background-image: url(../../img/icon/aircraft-hover.png);
 }
 .nav-main__item_aircraft:before{
@@ -44,14 +44,14 @@
 .nav-main__item_star:before{
 	background-image: url(../../img/icon/star.png) ;
 }
-.nav-main__item_star:hover:before,.nav-main__item_active:before{
+.nav-main__item_star:hover:before,.nav-main__item_star.nav-main__item_active:before{
 	background-image: url(../../img/icon/star-hover.png) ;
 }
 .nav-main__item_cap:before{
 	width: 22px;
 	background-image: url(../../img/icon/cap.png);
 }
-.nav-main__item_cap:hover:before,.nav-main__item_active:before{
+.nav-main__item_cap:hover:before,.nav-main__item_cap.nav-main__item_active:before{
 	background-image: url(../../img/icon/cap-hover.png);
 }
 

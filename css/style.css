@@ -12,11 +12,12 @@ Roboto, 100, 100 italic, 300, 300 italic, 400, 400 italic, 500, 500 italic, 700,
 html,
 body {
 	height: 100%;
+	font-family: Roboto;
+	line-height: 1.428;
 }
 body,ul,li {
 	padding: 0;
 	margin: 0;
-	font-family: Roboto;
 }
 h1,h2,h3,h4,h5,h6{
 	margin:0;
@@ -29,10 +30,13 @@ ul,li{
 	clear: both;
 	display: table;
 }
+address{
+	font-style: normal;
+}
 /******/
-.wrapper{
+.wrapper {
 	min-height: 100%;
-	overflow: hidden;
+	overflow-x: auto;
 }
 .container{
 	width: 1062px;
@@ -45,5 +49,20 @@ ul,li{
 	height: 100%;
 }
 .main__container {
-  padding-bottom: 77px;
+	padding-bottom: 77px;
+}
+
+.main-team,
+.main-about {
+	width: 885px;
+	float: right;
+}
+
+
+.title {
+	color: #221f1f;
+	font-family: Roboto;
+	font-size: 49px;
+	font-weight: 700;
+	margin-bottom: 38px;
 }
