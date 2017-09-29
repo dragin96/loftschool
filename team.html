@@ -20,7 +20,9 @@
 				</div>
 				<address class="contacts">
 					<a href="tel:88007008000" class="contacts__phone">8 (800) 00-392-10</a>
-					<a href="#" class="contacts__timetable">График работы</a>
+					<div class="contacts__wrap-timetable">
+						<a href="#" class="contacts__timetable">График работы</a>
+					</div>
 				</address>
 			</div>
 		</header>
@@ -31,14 +33,14 @@
 				<aside class="nav">
 					<nav class="nav-main">
 						<ul class="nav-main__items">
-							<li class="nav-main__item nav-main__item_aircraft">
-								<a href="about.html" class="nav-main__href">Главная</a>
+							<li class="nav-main__item">
+								<a href="about.html" class="nav-main__href  nav-main__item_aircraft">Главная</a>
 							</li>
-							<li class="nav-main__item nav-main__item_active nav-main__item_cap">
-								<a href="#" class="nav-main__href">Экипаж</a>
+							<li class="nav-main__item ">
+								<a href="team.html" class="nav-main__href nav-main__href_active nav-main__item_cap">Экипаж</a>
 							</li>
-							<li class="nav-main__item nav-main__item_star">
-								<a href="#" class="nav-main__href">Отзывы</a>
+							<li class="nav-main__item">
+								<a href="#" class="nav-main__href nav-main__item_star">Отзывы</a>
 							</li>
 						</ul>
 					</nav>
@@ -58,7 +60,6 @@
 					</nav>
 					<section class="content">
 						<h1 class="title">Экипаж</h1>
-						<div class="crew">
 							<ul class="crew__items">
 								<li class="crew__item">
 									<div class="crew__ava">
@@ -129,7 +130,6 @@
 									</div>
 								</li>
 							</ul>
-						</div>
 					</section>
 				</main>
 				<!-- end content -->
@@ -137,46 +137,46 @@
 		</section>
 	</div>
 	<!--begin footer -->
-			<footer class="footer">
-				<div class="container">
-					<div class="footer__wrap">
-						<div class="footer__desc">
-							<span class="footer__text">Сделано с любовью и старанием на курсе «HTML + CSS» в <a href="https://loftschool.com/" class="footer__autor">LoftSchool.</a></span>
-							Автор работы: <a href="https://vk.com/dragin_bld" class="footer__autor">Иванов Алексей</a>
-						</div>
-						<div class="footer__logo">
-							<a class="footer__logo-href" href="/">
-								<img src="img/logo.png" alt="">
-							</a>
-						</div>
-						<div class="social">
-							<div class="social__title">Наши социальные сети</div>
-							<ul class="social__item">
-								<li class="social__item-vk">
-									<a href="." class="social__href">
-									</a>
-								</li>
-								<li class="social__item-fb">
-									<a href="." class="social__href">
-									</a>
-								</li>
-								<li class="social__item-gp">
-									<a href="." class="social__href">
-									</a>
-								</li>
-								<li class="social__item-tw">
-									<a href="." class="social__href">
-									</a>
-								</li>
-								<li class="social__item-mail">
-									<a href="." class="social__href">
-									</a>
-								</li>
-							</ul>
-						</div>
-					</div>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__wrap">
+				<div class="footer__desc">
+					<span class="footer__text">Сделано с любовью и старанием на курсе «HTML + CSS» в <a href="https://loftschool.com/" class="footer__autor">LoftSchool.</a></span>
+					Автор работы: <a href="https://vk.com/dragin_bld" class="footer__autor">Иванов Алексей</a>
 				</div>
-			</footer>
-			<!--end footer-->
+				<div class="footer__logo">
+					<a class="footer__logo-href" href="/">
+						<img src="img/logo.png" alt="">
+					</a>
+				</div>
+				<div class="social">
+					<div class="social__title">Наши социальные сети</div>
+					<ul class="social__item">
+						<li class="social__item-vk">
+							<a href="." class="social__href">
+							</a>
+						</li>
+						<li class="social__item-fb">
+							<a href="." class="social__href">
+							</a>
+						</li>
+						<li class="social__item-gp">
+							<a href="." class="social__href">
+							</a>
+						</li>
+						<li class="social__item-tw">
+							<a href="." class="social__href">
+							</a>
+						</li>
+						<li class="social__item-mail">
+							<a href="." class="social__href">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--end footer-->
 </body>
 </html>   
