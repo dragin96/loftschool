@@ -92,6 +92,11 @@
 }
 .partner__img {
 	display: inline-block;
+	filter: grayscale(100%);
+	cursor:pointer;
+}
+.partner__img:hover{
+	filter: grayscale(0%)
 }
 .partner__wrap-img {
 	display: inline-block;
