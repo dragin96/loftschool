@@ -1,5 +1,5 @@
 /* Please do not use this import in production. You could download this font from here https://fontstorage.com/font/roboto */
-@import "http://fonts.fontstorage.com/import/roboto.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&subset=cyrillic');
 @import "section/header.css";
 @import "section/footer.css";
 @import "section/nav.css";
@@ -9,6 +9,12 @@ Roboto, 100, 100 italic, 300, 300 italic, 400, 400 italic, 500, 500 italic, 700,
 */
 
 /*myreset*/
+*{
+	box-sizing: border-box;
+}
+input[type="text"],textarea{
+	outline:none;
+}
 html,
 body {
 	height: 100%;
@@ -25,6 +31,7 @@ h1,h2,h3,h4,h5,h6{
 ul,li{
 	list-style: none;
 }
+
 .clearfix:after{
 	content:"";
 	clear: both;
@@ -36,7 +43,7 @@ address{
 /******/
 .wrapper {
 	min-height: 100%;
-	overflow-x: auto;
+	overflow-x: hidden;
 }
 .container{
 	width: 1062px;
@@ -53,7 +60,8 @@ address{
 }
 
 .main-team,
-.main-about {
+.main-about,
+.main-reviews {
 	width: 885px;
 	float: right;
 }

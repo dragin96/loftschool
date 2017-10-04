@@ -2,22 +2,34 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=1105">
+	<link href="favicon.ico" rel="shortcut icon">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/section/hello.css">
 	<title>AIR planet</title>
 </head>
 <body>
 	<div class="wrapper">
-		<div class="wrapper__background">
+		<div class="wrapper__center fade-in">
 			<section class="entrance">
 				<div class="entrance__logo">
-					<a href="." class="entrance__logo_href">
-						<img src="img/logo_main.png" alt="" class="entrance__logo_img">
+					<a href="." class="entrance__logo-href">
+						<img src="img/logo-main.png" alt="" class="entrance__logo-img">
 					</a>
 				</div>
-				<div class="entrance__button">
-					<a href="team.html" class="entrance__button_href">Перейти на сайт</a>
-				</div>
+				<button onclick="location.href='about.html'" class="entrance__button">Перейти на сайт</button>
 			</section>
 		</div>
 	</div>
+	<script>
+		(function () {
+			window.onload=function(){
+				//document.getElementById('preload').style.opacity=0;
+				document.body.querySelector(".wrapper__center").className +=" fade-in";
+			}
+		}());
+	</script>
 </body>
 </html> 

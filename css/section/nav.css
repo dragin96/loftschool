@@ -17,46 +17,54 @@
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 2.4px;
-}
- .nav-main__href:hover,
-.nav-main__href_active.nav-main__href{
-	color: #221f1f;
-}
-.nav-main__href:before,
-.nav-main__href_active:before
-{
-	content: "";
+	transition: color .8s;
 	display: block;
-	width: 20px;
+}
+.nav-main__href-ico{
+	display: block;
+	width: 24px;
 	height: 18px;
 	float: left;
-	margin-right: 16px;
+	margin-right: 14px;
 	background-repeat:no-repeat;
-	background-position: center;
-	background-size: contain;
+	position: relative;
 }
-.nav-main__item_aircraft:hover:before,.nav-main__item_aircraft.nav-main__href_active:before{
-	background-image: url(../../img/icon/aircraft-hover.png);
+.nav-main__href-ico:after{
+	content: "";
+	opacity: 0;
+	transition: opacity 0.8s; 
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
 }
-.nav-main__item_aircraft:before{
-	background-image: url(../../img/icon/aircraft.png) ;
+.nav-main__href-ico_aircraft{
+	background: url(../../img/icon/spritesheet.png) -3px -5px;
 }
-.nav-main__item_star:before{
-	background-image: url(../../img/icon/star.png) ;
+.nav-main__href-ico_cap{
+	background: url(../../img/icon/spritesheet.png) -61px -5px;
 }
-.nav-main__item_star:hover:before,.nav-main__item_star.nav-main__href_active:before{
-	background-image: url(../../img/icon/star-hover.png) ;
+.nav-main__href-ico_star{
+	background: url(../../img/icon/spritesheet.png) -94px -6px;
 }
-.nav-main__item_cap:before{
-	width: 22px;
-	background-image: url(../../img/icon/cap.png);
+.nav-main__href:hover .nav-main__href-ico_aircraft::after,.nav-main__href_active .nav-main__href-ico_aircraft::after{
+	background: url(../../img/icon/spritesheet.png)-31px -5px;
+	opacity: 1;
 }
-.nav-main__item_cap:hover:before,.nav-main__item_cap.nav-main__href_active:before{
-	background-image: url(../../img/icon/cap-hover.png);
+.nav-main__href:hover .nav-main__href-ico_cap::after,.nav-main__href_active .nav-main__href-ico_cap::after{
+	background: url(../../img/icon/spritesheet.png) -5px -33px;
+	opacity: 1;
 }
-
+.nav-main__href:hover .nav-main__href-ico_star::after,.nav-main__href_active .nav-main__href-ico_star::after{
+	background: url(../../img/icon/spritesheet.png) -79px -35px;
+	opacity: 1;
+}
+.nav-main__href:hover,.nav-main__href_active{
+  color: #221f1f;
+}
 .bread-crumbs{
-	margin-bottom: 18px;
+	margin-bottom: 11px;
 }
 .bread-crumbs__items {
 	font-size: 14px;
@@ -77,7 +85,7 @@
 	color: #5b96d9;
 }
 .bread-crumbs__href:hover {
-    color: #224873;
+	color: #224873;
 }
 .bread-crumbs__item_active .bread-crumbs__href {
 	text-decoration: none;

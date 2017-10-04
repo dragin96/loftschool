@@ -1,0 +1,85 @@
+
+.wrapper {
+	width: 100%;
+	height: 100%;
+	background-color: #88abe6;
+	background-image: url(../../img/bg.jpg);
+	background-size: cover;
+	position: relative;
+}
+
+.wrapper__center {
+	width: 232px;
+	height: 300px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	opacity: 0;
+}
+
+.entrance__logo {
+	width: 111px;
+	height: 185px;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+
+
+.entrance__logo_href {
+	display: block;
+}
+
+.entrance__button {
+	width: 209px;
+	padding: 16px 40px 14px 17px;
+	border: 1px solid #1c5bc3;
+	border-radius: 7px;
+	display: block;
+	background-color: transparent;
+	color: #1c5bc4;
+	font-family: Roboto;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase; 
+	letter-spacing: 2.4px;
+	box-sizing: border-box;
+	cursor: pointer;
+	outline: 0;
+	margin: 0 auto;
+	transition:color 2s,background-color 2s;
+}
+.entrance__button:hover{
+	background-color: #1c5bc3;
+	color:white;
+}
+.entrance__button:hover::after{background-position: -26px -63px;}
+.entrance__button:after{
+	content: "";
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	margin-left: 6px;
+	background-image: url(../../img/icon/spritesheet.png);
+	background-repeat: no-repeat;
+	background-position: -76px -63px;
+	transition: all .8s;
+}
+/*animation*/
+.fade-in{
+	animation: fade-in 1.2s ease-in-out .8s 1;
+	animation-fill-mode: forwards;
+}
+@keyframes fade-in
+{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}

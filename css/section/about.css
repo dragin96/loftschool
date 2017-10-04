@@ -1,5 +1,9 @@
 .content__about{
-	margin-bottom:54px;
+	margin-bottom: 41px;
+}
+.main-about, .main-reviews {
+	position: relative;
+	bottom: 44px;
 }
 .about-img {
 	width: 884px;
@@ -7,8 +11,6 @@
 	position: relative;
 	background: url(../../img/about.png) no-repeat center;
 	background-color: white;
-	margin-bottom: 5px;
-	bottom: 44px;
 }  
 .about-img__title {
 	position: absolute;
@@ -18,12 +20,12 @@
 }
 
 .about-text {
-	width: 700px;
+	width: 710px;
 	color: #221f1f;
 	font-size: 18px;
 	font-weight: 300;
 	padding: 3px;
-	line-height: 28px;
+	line-height: 1.689;
 }
 .about-text__name {
 	font-size: 18px;
@@ -32,17 +34,16 @@
 }
 
 .about-text__paragraph {
-	line-height: 1.6;
-	margin-top: 20px;
+	line-height: 1.689;
 }
 
 .about-text__paragraph-title {
-	margin-bottom: 14px;
+	margin-bottom: 4px;
 }
 
 .about-text__items {
 	padding-left: 40px;
-	margin-bottom: -8px;
+	margin-bottom: 0px;
 }
 
 .about-text__item {
@@ -94,6 +95,7 @@
 	display: inline-block;
 	filter: grayscale(100%);
 	cursor:pointer;
+	transition:all 0.8s;
 }
 .partner__img:hover{
 	filter: grayscale(0%)

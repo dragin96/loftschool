@@ -5,6 +5,8 @@
 	<title>AIR planet team</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=1105">
+	<link href="favicon.ico" rel="icon" type="image/x-icon">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/section/team.css">
 </head>
@@ -22,6 +24,10 @@
 					<a href="tel:88007008000" class="contacts__phone">8 (800) 00-392-10</a>
 					<div class="contacts__wrap-timetable">
 						<a href="#" class="contacts__timetable">График работы</a>
+						<div class="contacts__popup">
+							<div class="contacts__popup-title">пн-вс: 09:00-20:00</div>
+							<div class="contacts__popup-text">обед: 14:00-14:30</div>
+						</div>
 					</div>
 				</address>
 			</div>
@@ -34,13 +40,22 @@
 					<nav class="nav-main">
 						<ul class="nav-main__items">
 							<li class="nav-main__item">
-								<a href="about.html" class="nav-main__href  nav-main__item_aircraft">Главная</a>
+								<a href="about.html" class="nav-main__href">
+									<span class="nav-main__href-ico nav-main__href-ico_aircraft"></span>
+									<span class="nav-main__href-txt">Главная</span>
+								</a>
 							</li>
 							<li class="nav-main__item ">
-								<a href="team.html" class="nav-main__href nav-main__href_active nav-main__item_cap">Экипаж</a>
+								<a href="team.html" class="nav-main__href  nav-main__href_active">
+									<span class="nav-main__href-ico nav-main__href-ico_cap"></span>
+									<span class="nav-main__href-txt">Экипаж</span>
+								</a>
 							</li>
 							<li class="nav-main__item">
-								<a href="#" class="nav-main__href nav-main__item_star">Отзывы</a>
+								<a href="reviews.html" class="nav-main__href">
+									<span class="nav-main__href-ico nav-main__href-ico_star"></span>
+									<span class="nav-main__href-txt">Отзывы</span>
+								</a>
 							</li>
 						</ul>
 					</nav>
@@ -51,7 +66,7 @@
 					<nav class="bread-crumbs">
 						<ul class="bread-crumbs__items">
 							<li class="bread-crumbs__item">
-								<a href="#" class="bread-crumbs__href">Главная</a>
+								<a href="about.html" class="bread-crumbs__href">Главная</a>
 							</li>
 							<li class="bread-crumbs__item bread-crumbs__item_active">
 								<a href="#" class="bread-crumbs__href">Экипаж</a>
@@ -60,76 +75,76 @@
 					</nav>
 					<section class="content">
 						<h1 class="title">Экипаж</h1>
-							<ul class="crew__items">
-								<li class="crew__item">
-									<div class="crew__ava">
-										<img src="img/content/1.jpg" alt="" class="crew__ava-img">
+						<ul class="crew__items">
+							<li class="crew__item">
+								<div class="crew__ava">
+									<img src="img/content/1.jpg" alt="" class="crew__ava-img">
+								</div>
+								<div class="crew__description">
+									<div class="crew__name">Белов Алексей Вадимович</div>
+									<div class="crew__profession">Главный пилот</div>
+									<div class="crew__content">
+										Высокий профессионализм, честь и отвага – все это характеристики главного пилота Белова А.В. На его счету более 700 полетов. Награжден за мужество и отвагу указом президента.
 									</div>
-									<div class="crew__description">
-										<div class="crew__name">Белов Алексей Вадимович</div>
-										<div class="crew__profession">Главный пилот</div>
-										<div class="crew__content">
-											Высокий профессионализм, честь и отвага – все это характеристики главного пилота Белова А.В. На его счету более 700 полетов. Награжден за мужество и отвагу указом президента.
-										</div>
+								</div>
+							</li>
+							<li class="crew__item">
+								<div class="crew__ava">
+									<img src="img/content/2.jpg" alt="" class="crew__ava-img">
+								</div>
+								<div class="crew__description">
+									<div class="crew__name">Сухарина Инна Николаевна</div>
+									<div class="crew__profession">Бортпроводник</div>
+									<div class="crew__content">
+									Благодаря деятельности этого человека, на борту самолета клиенты чувствуют себя, как дома. Инна Николаевна чутко относится ко всем требованиям клиентов, очень любит детей и всячески помогает сделать полет комфортным и приятным.									</div>
+								</div>
+							</li>
+							<li class="crew__item">
+								<div class="crew__ava">
+									<img src="img/content/3.jpg" alt="" class="crew__ava-img">
+								</div>
+								<div class="crew__description">
+									<div class="crew__name">Лещ Борис Анатольевич</div>
+									<div class="crew__profession">Авиатехник</div>
+									<div class="crew__content crew__content_3">
+										Человек с золотыми руками, инженер и конструктор от Бога! Борис Анатольевич работает уже более 50 лет и на своем веку видел, как из старых моделей самолетов появлялись настоящие авиа шедевры.
 									</div>
-								</li>
-								<li class="crew__item">
-									<div class="crew__ava">
-										<img src="img/content/2.jpg" alt="" class="crew__ava-img">
-									</div>
-									<div class="crew__description">
-										<div class="crew__name">Сухарина Инна Николаевна</div>
-										<div class="crew__profession">Бортпроводник</div>
-										<div class="crew__content">
-										Благодаря деятельности этого человека, на борту самолета клиенты чувствуют себя, как дома. Инна Николаевна чутко относится ко всем требованиям клиентов, очень любит детей и всячески помогает сделать полет комфортным и приятным.									</div>
-									</div>
-								</li>
-								<li class="crew__item">
-									<div class="crew__ava">
-										<img src="img/content/3.jpg" alt="" class="crew__ava-img">
-									</div>
-									<div class="crew__description">
-										<div class="crew__name">Лещ Борис Анатольевич</div>
-										<div class="crew__profession">Авиатехник</div>
-										<div class="crew__content crew__content_3">
-											Человек с золотыми руками, инженер и конструктор от Бога! Борис Анатольевич работает уже более 50 лет и на своем веку видел, как из старых моделей самолетов появлялись настоящие авиа шедевры.
-										</div>
-									</div>
-								</li>
-								<li class="crew__item">
-									<div class="crew__ava">
-										<img src="img/content/4.jpg" alt="" class="crew__ava-img">
-									</div>
-									<div class="crew__description">
-										<div class="crew__name">Дигангидзе Элина Даниловна</div>
-										<div class="crew__profession">Диспетчер</div>
-										<div class="crew__content">
-										Ей присущ внимательный подход к расчетам, а отменная память удивляет даже самых опытных членов экипажа. За 22 года работы она стажировала более 100 диспетчеров для работы в крупнейших аэропортах страны.  Знает в совершенстве 5 иностранных языков.									</div>
-									</div>
-								</li>
-								<li class="crew__item">
-									<div class="crew__ava">
-										<img src="img/content/5.jpg" alt="" class="crew__ava-img">
-									</div>
-									<div class="crew__description">
-										<div class="crew__name">Следь Елена Николаевна</div>
-										<div class="crew__profession">Старший бортпроводник</div>
-										<div class="crew__content">
-										Вежливая улыбка, внимательность к деталям и большой опыт работы – это лишь малая часть достоинств Елены Николаевны. Старший бортпроводник задает тон всей поездке, поэтому клиенты, которые летят с ней, заряжаются отличным настроением и гармонией.									</div>
-									</div>
-								</li>
-								<li class="crew__item">
-									<div class="crew__ava">
-										<img src="img/content/6.jpg" alt="" class="crew__ava-img">
-									</div>
-									<div class="crew__description">
-										<div class="crew__name">Нестеренко Юрий Афанасьевич</div>
-										<div class="crew__profession">Второй пилот</div>
-										<div class="crew__content">
-										Правая рука главного пилота, опытный и отважный помощник. О своей работе в шутку говорит так «Наше дело правое, не мешать левому». Опыт работы составляет 18 лет, внимательно относится ко всем деталям и считает свою работу – делом жизни. 									</div>
-									</div>
-								</li>
-							</ul>
+								</div>
+							</li>
+							<li class="crew__item">
+								<div class="crew__ava">
+									<img src="img/content/4.jpg" alt="" class="crew__ava-img">
+								</div>
+								<div class="crew__description">
+									<div class="crew__name">Дигангидзе Элина Даниловна</div>
+									<div class="crew__profession">Диспетчер</div>
+									<div class="crew__content">
+									Ей присущ внимательный подход к расчетам, а отменная память удивляет даже самых опытных членов экипажа. За 22 года работы она стажировала более 100 диспетчеров для работы в крупнейших аэропортах страны.  Знает в совершенстве 5 иностранных языков.									</div>
+								</div>
+							</li>
+							<li class="crew__item">
+								<div class="crew__ava">
+									<img src="img/content/5.jpg" alt="" class="crew__ava-img">
+								</div>
+								<div class="crew__description">
+									<div class="crew__name">Следь Елена Николаевна</div>
+									<div class="crew__profession">Старший бортпроводник</div>
+									<div class="crew__content">
+									Вежливая улыбка, внимательность к деталям и большой опыт работы – это лишь малая часть достоинств Елены Николаевны. Старший бортпроводник задает тон всей поездке, поэтому клиенты, которые летят с ней, заряжаются отличным настроением и гармонией.									</div>
+								</div>
+							</li>
+							<li class="crew__item">
+								<div class="crew__ava">
+									<img src="img/content/6.jpg" alt="" class="crew__ava-img">
+								</div>
+								<div class="crew__description">
+									<div class="crew__name">Нестеренко Юрий Афанасьевич</div>
+									<div class="crew__profession">Второй пилот</div>
+									<div class="crew__content">
+									Правая рука главного пилота, опытный и отважный помощник. О своей работе в шутку говорит так «Наше дело правое, не мешать левому». Опыт работы составляет 18 лет, внимательно относится ко всем деталям и считает свою работу – делом жизни. 									</div>
+								</div>
+							</li>
+						</ul>
 					</section>
 				</main>
 				<!-- end content -->
@@ -139,41 +154,39 @@
 	<!--begin footer -->
 	<footer class="footer">
 		<div class="container">
-			<div class="footer__wrap">
-				<div class="footer__desc">
-					<span class="footer__text">Сделано с любовью и старанием на курсе «HTML + CSS» в <a href="https://loftschool.com/" class="footer__autor">LoftSchool.</a></span>
-					Автор работы: <a href="https://vk.com/dragin_bld" class="footer__autor">Иванов Алексей</a>
-				</div>
-				<div class="footer__logo">
-					<a class="footer__logo-href" href="/">
-						<img src="img/logo.png" alt="">
-					</a>
-				</div>
-				<div class="social">
-					<div class="social__title">Наши социальные сети</div>
-					<ul class="social__item">
-						<li class="social__item-vk">
-							<a href="." class="social__href">
-							</a>
-						</li>
-						<li class="social__item-fb">
-							<a href="." class="social__href">
-							</a>
-						</li>
-						<li class="social__item-gp">
-							<a href="." class="social__href">
-							</a>
-						</li>
-						<li class="social__item-tw">
-							<a href="." class="social__href">
-							</a>
-						</li>
-						<li class="social__item-mail">
-							<a href="." class="social__href">
-							</a>
-						</li>
-					</ul>
-				</div>
+			<div class="footer__desc">
+				<span class="footer__text">Сделано с любовью и старанием на курсе «HTML + CSS» в <a href="https://loftschool.com/" class="footer__autor">LoftSchool.</a></span>
+				Автор работы: <a href="https://vk.com/dragin_bld" class="footer__autor">Иванов Алексей</a>
+			</div>
+			<div class="footer__logo">
+				<a class="footer__logo-href" href="/">
+					<img src="img/logo.png" alt="">
+				</a>
+			</div>
+			<div class="social">
+				<div class="social__title">Наши социальные сети</div>
+				<ul class="social__item">
+					<li class="social__item-vk">
+						<a href="." class="social__href">
+						</a>
+					</li>
+					<li class="social__item-fb">
+						<a href="." class="social__href">
+						</a>
+					</li>
+					<li class="social__item-gp">
+						<a href="." class="social__href">
+						</a>
+					</li>
+					<li class="social__item-tw">
+						<a href="." class="social__href">
+						</a>
+					</li>
+					<li class="social__item-mail">
+						<a href="." class="social__href">
+						</a>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</footer>
